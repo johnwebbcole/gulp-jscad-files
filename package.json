@@ -9,7 +9,17 @@
   "keywords": [
     "gulp-plugin"
   ],
-  "author": "John Cole <johnwebbcole@gmail.com>",
+  "homepage": "https://github.com/johnwebbcole/gulp-jscad-files",
+  "bugs": "https://github.com/johnwebbcole/gulp-jscad-files/issues",
+  "author": {
+    "name": "John Cole",
+    "email": "johnwebbcole@gmail.com",
+    "url": "http://github.com/johnwebbcole@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnwebbcole/gulp-jscad-files.git"
+  },
   "license": "ISC",
   "dependencies": {
     "globby": "^4.0.0",
