@@ -18,10 +18,13 @@ module.exports = function () {
 
       Object.keys(pkg.dependencies).forEach((key) => {
         globby(['node_modules/' + key + '/package.json']).then(paths => {
+          // console.log('globby', key, paths);
           var deppkg = JSON.parse(readFile(paths[0]));
           var d = file.clone();
           d.path = path.resolve(path.dirname(paths), deppkg.main);
           d.contents = readFile(d.path);
+          // If the main file is `index.js`, change it to the package name, so we don't get a bunch of `index.js` overwrites
+          if (path.basename(d.path) === 'index.js') d.path = path.resolve(path.dirname(paths), key + '.js');
           this.push(d);
         });
       });
