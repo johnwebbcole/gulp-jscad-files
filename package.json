@@ -1,6 +1,6 @@
 {
   "name": "gulp-jscad-files",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gulp plugin to process jscad files, similar to bower.",
   "main": "index.js",
   "scripts": {
