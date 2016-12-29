@@ -1,28 +1,28 @@
 {
-    "name": "gulp-jscad-files",
-    "version": "1.0.3",
-    "description": "Gulp plugin to process jscad files, similar to bower.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 0"
-    },
-    "keywords": [
-        "gulp-plugin"
-    ],
-    "homepage": "https://github.com/johnwebbcole/gulp-jscad-files",
-    "bugs": "https://github.com/johnwebbcole/gulp-jscad-files/issues",
-    "author": {
-        "name": "John Cole",
-        "email": "johnwebbcole@gmail.com",
-        "url": "http://github.com/johnwebbcole@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/johnwebbcole/gulp-jscad-files.git"
-    },
-    "license": "ISC",
-    "dependencies": {
-        "globby": "^4.0.0",
-        "through2": "^2.0.1"
-    }
+  "name": "gulp-jscad-files",
+  "version": "2.0.0",
+  "description": "Gulp plugin to process jscad files, similar to bower.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "gulp-plugin"
+  ],
+  "homepage": "https://github.com/johnwebbcole/gulp-jscad-files",
+  "bugs": "https://github.com/johnwebbcole/gulp-jscad-files/issues",
+  "author": {
+    "name": "John Cole",
+    "email": "johnwebbcole@gmail.com",
+    "url": "http://github.com/johnwebbcole@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnwebbcole/gulp-jscad-files.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "globby": "^4.0.0",
+    "through2": "^2.0.1"
+  }
 }
